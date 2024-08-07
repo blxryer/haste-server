@@ -1,5 +1,4 @@
 {
-
   "host": "0.0.0.0",
   "port": 7777,
 
@@ -31,13 +30,14 @@
       }
     }
   },
-
   "storage": {
-    "type": "file"
+    "type": "mariadb",
+    "host": "",
+    "user": "",
+    "password": "",
+    "database": ""
   },
-
   "documents": {
     "about": "./about.md"
   }
-
 }
